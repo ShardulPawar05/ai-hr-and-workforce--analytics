@@ -64,7 +64,7 @@ const AIHRTool = () => {
   };
 
   const deleteEmployee = async (id) => {
-    if (window.confirm("Kyu aap ise delete karna chahte hain?")) {
+    if (window.confirm("delete this employee")) {
       await axios.delete(`${API_URL}/${id}`);
       fetchData();
     }
