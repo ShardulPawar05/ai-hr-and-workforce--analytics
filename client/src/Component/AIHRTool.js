@@ -5,8 +5,8 @@ import { Users, TrendingUp, AlertTriangle, Brain, UserPlus, Plus, X, Trash2, Sta
 
 // --- DEPLOYMENT FIX: SMART URL SWITCH ---
 const API_BASE = process.env.NODE_ENV === 'production' 
-  ? 'https://aihr-backend-shardul.onrender.com' // Render Backend URL
-  : 'http://localhost:5000';                   // Local Laptop URL
+  ? 'https://aihr-backend.onrender.com'//rendor url
+  : 'http://localhost:5000';          // Local Laptop URL
 
 const API_URL = `${API_BASE}/api/employees`;
 
